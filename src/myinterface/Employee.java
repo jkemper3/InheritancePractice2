@@ -11,5 +11,10 @@ package myinterface;
  * @author jkemper3
  */
 public interface Employee {
+    public abstract String getLastName();
+    public abstract void setLastName(String lastName);
+    public abstract String getFirstName();
+    public abstract void getFirstName(String firstName);
+    
     
 }
