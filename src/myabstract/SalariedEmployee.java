@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-package myinterface;
+package myabstract;
 
 /**
  *
  * @author jkemper3
  */
-public class SalariedEmployee implements Employee {
-    private String lastName;
-    private String firstName;
-    private String ssn;
+public abstract class SalariedEmployee extends Employee {
+    
 }

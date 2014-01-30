@@ -11,6 +11,8 @@ package myabstract;
  * @author Justin
  */
 public abstract class HourlyEmployee extends Employee{
+   
+   
     public void double hourlyRate(){
-    this.hourlyRate = hourlyRate;
-};
+    return this.hourlyRate;
+}

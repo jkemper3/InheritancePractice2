@@ -10,8 +10,8 @@ package myinterface;
  *
  * @author jkemper3
  */
-public class HourlyEmployee implements Employee{
-    private String lastName;
+public class SalariedPlusCommissionedEmployee implements Employee{
+   private String lastName;
     private String firstName;
     private String ssn;
 
@@ -38,7 +38,5 @@ public class HourlyEmployee implements Employee{
     public void setSsn(String ssn) {
         this.ssn = ssn;
     }
-    
-    
     
 }
