@@ -12,6 +12,12 @@ package my.concrete;
  */
 public class SalariedEmployee extends Employee {
     private double salary;
+    
+    @Override
+    public double getAnnualWages(){
+       return(salary * 12); 
+    }
+    
 
     public double getSalary() {
         return salary;

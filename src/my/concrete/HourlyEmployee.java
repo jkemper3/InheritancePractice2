@@ -13,12 +13,10 @@ package my.concrete;
 public class HourlyEmployee extends Employee {
   private double hourlyRate;
   private double hoursPerWeek;
-  private double annualWages;
   
   @Override
   public double getAnnualWages(){
-      annualWages = hourlyRate * hoursPerWeek;
-      return annualWages;    
+      return(hourlyRate * hoursPerWeek);      
   }
   
 }

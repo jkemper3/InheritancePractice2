@@ -12,6 +12,11 @@ package my.concrete;
  */
 public class SalaryPlusCommisionEmployee extends SalariedEmployee {
     private double commission;
+    
+    @Override
+    public double getAnnualWages(){
+        return (this.getAnnualWages() + commission);
+    }
 
     public double getCommission() {
         return commission;
